@@ -220,12 +220,13 @@ h1 {
     border-radius: 8px;
     cursor: pointer;
     font-weight: bold;
-    width: 100px;
+    width: 100%;
     transition: all 0.5 ease;
 
 }
 
 
-.botao-form{
-    
+.botao-form:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 15px rgba(218, 0, 0, 0.5);
 }
