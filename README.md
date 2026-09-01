@@ -17,8 +17,6 @@ Portfólio pessoal desenvolvido para apresentar meus projetos, habilidades e tra
 - [ ] Seção de projetos com cards/links para os repositórios
 - [ ] Seção de habilidades técnicas (tech stack)
 - [ ] Formulário/links de contato
-- [ ] Layout responsivo (mobile-first)
-- [ ] Modo claro/escuro *(se aplicável)*
 
 ## 🛠️ Tecnologias
 
@@ -31,12 +29,10 @@ Portfólio pessoal desenvolvido para apresentar meus projetos, habilidades e tra
 ```
 portifolio/
 ├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-├── assets/
-│   └── (imagens, ícones, etc.)
+├── style.css
+├── script.js
+├── img/
+│   └── (imagens, icones)
 └── README.md
 ```
 
