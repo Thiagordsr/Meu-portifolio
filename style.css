@@ -41,7 +41,7 @@ body {
 
 .menu-link{
     text-decoration: none;
-    color: var(--cor5);
+    color: var(--cor1);
     font-weight: 500;
     position: relative;
     padding: 0.5rem0;
@@ -55,7 +55,7 @@ body {
     position: absolute;
     bottom: 0;
     left: 0;
-    background: linear-gradient(90deg, var(--cor6), var(--cor4));
+    background: linear-gradient(90deg, var(--cor2), var(--cor1));
     transition: width 0.5s ease;
 }
 
@@ -76,7 +76,7 @@ body {
     height: 250px;
     box-shadow: 46px -14px 15px -1px rgba(46, 48, 50, 0.26);
     border-radius: 50%;
-    border: 4px solid var(--cor4);
+    border: 4px solid var(--cor2);
 }
 h1 {
     font-size: 3.5rem;
@@ -87,7 +87,7 @@ h1 {
 
 .cabecalho-sub-titulo {
     font-size: 1.5rem;
-    color: var(--cor6)
+    color: var(--cor2)
 }
 
 
@@ -97,7 +97,7 @@ h1 {
 
 .sobre-titulo{
     font-size: 3rem;
-    color: var(--cor5);
+    color: var(--cor1);
     text-align: center;
     margin-bottom: 20px;
 }
@@ -109,7 +109,7 @@ h1 {
     border-radius: 16px;
     border: 1px solid var(--cor2);
     backdrop-filter: blur(10px);
-    background: rgba(0, 97, 104, 0.5);
+    background: rgba(78, 71, 89, 0.5);
 }
 
 .sobre-paragrafo{
@@ -131,10 +131,10 @@ h1 {
 }
 
 .projetos-card{
-    background: rgba(218, 0, 0, 0.5);
+    background: rgba(16, 28, 94, 0.639);
     border-radius: 16px;
     backdrop-filter: blur(5px);
-    border: 1px solid var(--cor6);
+    border: 1px solid var(--cor3);
     overflow: hidden;
     transition: all 0.5 ease;
     cursor: pointer;
@@ -147,7 +147,7 @@ h1 {
 }
 
 .projetos-card:hover{
-    box-shadow: 0 10px 20px rgba(173, 6, 106, 0.9);
+    box-shadow: 0 10px 20px rgba(20, 6, 79, 0.9);
     transform: translateY(-10px) scale(1.03);
 }
 
@@ -162,7 +162,7 @@ h1 {
 }
 
 .paragrafo-projetos{
-    color: rgba(226, 232, 240, 0.8);
+    color: rgba(7, 7, 8, 0.8);
     line-height: 1.25;
 }
 
