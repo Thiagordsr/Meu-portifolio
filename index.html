@@ -79,15 +79,24 @@
 
         <form class="formulario-contato" id="formulario">
             <div class="grupo-form">
-                <input placeholder="Nome" class="campo-form">
+                <input placeholder="Nome" class="campo-form" id="nome">
             </div>
             <div class="grupo-form">
-                <textarea class="campo-form" placeholder="Digite sua mensagem"></textarea>
+                <textarea class="campo-form" placeholder="Digite sua mensagem" rows="4" id="mensagem"></textarea>
             </div>
             <button type="submit" class="botao-form">Enviar WhatsApp</button>
         </form>
 
     </section>
+
+    <script>
+        const nome = document.getElementById('nome');
+        const mensagem = document.getElementById('mensagem');
+        const telefone = '5511977262635'
+
+        const text = `Olá! me chamo ${nome}, ${mensagem}`
+        const msgFormatada =
+    </script>
 
 </body>
 
