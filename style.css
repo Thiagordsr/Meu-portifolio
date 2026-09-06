@@ -11,16 +11,17 @@ html {
 }
 
 :root {
-    --cor1: #2563eb;
+    --cor1: #012a82;
     --cor2: #0a0a0a;
     --cor3: #ffffff;
     --cor4: #ef4444;
     --cor5: #facc15;
-    --cor6: #22c55e;
+    --cor6: #25D366;
+    --cor7: #128c7e;
 }
 
 body {
-    background-color: var(--cor3);
+    background-color: rgb(79, 15, 197);
     color: var(--cor1);
 }
 
@@ -183,10 +184,10 @@ h1 {
 .formulario-contato{
     max-width: 600px;
     margin: 0 auto;
-    background: rgba(218, 0, 0, 0.5);
+    background: rgba(1, 25, 159, 0.744);
     backdrop-filter: blur(5px);
     padding: 2rem;
-    border: 10px solid var(--cor5);
+    border: 2px solid var(--cor2);
     border-radius: 16px;
 }
 
@@ -195,16 +196,16 @@ h1 {
 .campo-form{
     width: 100%;
     padding: 1rem;
-    background: rgba(218, 0, 0, 0.5);
+    background: rgba(1, 1, 124, 0.5);
     border-radius: 8px;
-    color: #817c7c;
+    color: #000000;
     border: 1px solid var(--cor1);
     outline: none;
 }
 
 .campo-form:focus{
-    border-color: var(--cor4);
-    box-shadow: 0 0 10px rgba(255, 24, 186, 0.9);
+    border-color: var(--cor2);
+    box-shadow: 0 0 10px rgb(0, 47, 215);
 }
 
 .grupo-form{
@@ -213,8 +214,8 @@ h1 {
 }
 
 .botao-form{
-    color: var(--cor1);
-    background: linear-gradient(45deg, var(--cor4), var(--cor5));
+    color: var(--cor3);
+    background: linear-gradient(45deg, var(--cor6), var(--cor7));
     padding: 1rem 2rem;
     border:none;
     border-radius: 8px;
@@ -222,7 +223,6 @@ h1 {
     font-weight: bold;
     width: 100%;
     transition: all 0.5 ease;
-
 }
 
 
@@ -243,4 +243,14 @@ h1 {
     radial-gradient(circle at 10%  20%, var(--cor2) 0%, transparent 20%),
     radial-gradient(circle at 90%  80%, var(--cor1) 0%, transparent 20%),
     var(--cor3);
+}
+
+.rodape{
+    text-align: center;
+
+}
+
+.t{
+    text-align: center;
+    color: #ef4444;
 }
