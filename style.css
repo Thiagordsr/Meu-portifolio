@@ -73,7 +73,7 @@ body {
 }
 
 .foto-thix{
-    width: 250px;
+    width: 260px;
     height: 250px;
     box-shadow: 46px -14px 15px -1px rgba(46, 48, 50, 0.26);
     border-radius: 50%;
@@ -229,7 +229,7 @@ h1 {
 
 .botao-form:hover {
     transform: translateY(-4px);
-    box-shadow: 0 10px 15px rgba(218, 0, 0, 0.5);
+    box-shadow: 0 10px 15px rgba(0, 136, 77, 0.785);
 }
 
 .bolinhas{
