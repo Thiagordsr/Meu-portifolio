@@ -61,7 +61,7 @@ cd NOME-DO-REPO
 
 ## 👤 Autor
 
-**Thiago Rodrigues**
+**Thiago Rodrigues Santa rosa**
 Estudante de Análise e Desenvolvimento de Sistemas — FIAP
 
 - GitHub: [@Thiagordsr](https://github.com/Thiagordsr)
