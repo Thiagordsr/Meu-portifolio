@@ -11,25 +11,25 @@ html {
 }
 
 :root {
-    --cor1: #012a82;
-    --cor2: #0a0a0a;
-    --cor3: #ffffff;
-    --cor4: #ef4444;
+    --cor1: #60a5fa;
+    --cor2: #b8c5d6;
+    --cor3: #f1f5f9;
+    --cor4: #b8c5d6;
     --cor5: #facc15;
-    --cor6: #25D366;
-    --cor7: #128c7e;
-    --cor8: #3c3cfd;
+    --cor6: #4ade80;
+    --cor7: #22c55e;
+    --cor8: #67e8f9;
 }
 
 body {
-    background-color: rgb(0, 15, 52);
+    background-color: #0b1120;
     color: var(--cor3);
 }
 
 .navegacao {
     position:fixed;
     top: 0;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(11, 17, 32, 0.95);
     width: 100%;
     z-index: 100;
     padding: 1.5rem;
@@ -46,7 +46,7 @@ body {
     color: var(--cor1);
     font-weight: 500;
     position: relative;
-    padding: 0.5rem0;
+    padding: 0.5rem 0;
     
 }
 
@@ -76,9 +76,9 @@ body {
 .foto-thix{
     width: 260px;
     height: 250px;
-    box-shadow: 46px -14px 15px -1px rgba(46, 48, 50, 0.26);
+    box-shadow: 46px -14px 15px -1px rgba(96, 165, 250, 0.2);
     border-radius: 50%;
-    border: 4px solid var(--cor2);
+    border: 4px solid var(--cor1);
 }
 h1 {
     font-size: 3.5rem;
@@ -109,9 +109,9 @@ h1 {
     max-width: 800px;
     margin: 0 auto;
     border-radius: 16px;
-    border: 1px solid var(--cor2);
+    border: 1px solid #334155;
     backdrop-filter: blur(10px);
-    background: rgba(78, 71, 89, 0.5);
+    background: #151f32;
 }
 
 .sobre-paragrafo{
@@ -133,12 +133,12 @@ h1 {
 }
 
 .projetos-card{
-    background: rgba(16, 28, 94, 0.639);
+    background: #151f32;
     border-radius: 16px;
     backdrop-filter: blur(5px);
-    border: 1px solid var(--cor3);
+    border: 1px solid #334155;
     overflow: hidden;
-    transition: all 0.5 ease;
+    transition: all 0.5s ease;
     cursor: pointer;
 }
 
@@ -149,7 +149,7 @@ h1 {
 }
 
 .projetos-card:hover{
-    box-shadow: 0 10px 20px rgba(20, 6, 79, 0.9);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
     transform: translateY(-10px) scale(1.03);
 }
 
@@ -165,7 +165,7 @@ h1 {
 }
 
 .paragrafo-projetos{
-    color: rgba(7, 7, 8, 0.8);
+    color: var(--cor2);
     line-height: 1.25;
 }
 
@@ -186,10 +186,10 @@ h1 {
 .formulario-contato{
     max-width: 600px;
     margin: 0 auto;
-    background: rgba(1, 25, 159, 0.744);
+    background: #151f32;
     backdrop-filter: blur(5px);
     padding: 2rem;
-    border: 2px solid var(--cor2);
+    border: 2px solid #334155;
     border-radius: 16px;
 }
 
@@ -198,25 +198,25 @@ h1 {
 .campo-form{
     width: 100%;
     padding: 1rem;
-    background: rgba(1, 1, 124, 0.5);
+    background: #0f172a;
     border-radius: 8px;
-    color: #000000;
-    border: 1px solid var(--cor1);
+    color: var(--cor3);
+    border: 1px solid #334155;
     outline: none;
 }
 
 .campo-form:focus{
-    border-color: var(--cor2);
-    box-shadow: 0 0 10px rgb(0, 47, 215);
+    border-color: var(--cor1);
+    box-shadow: 0 0 0 3px rgba(96, 165, 250, 0.25);
 }
 
 .grupo-form{
-    margin-bottom: 1,5rem;
+    margin-bottom: 1.5rem;
 
 }
 
 .botao-form{
-    color: var(--cor3);
+    color: #0b1120;
     background: linear-gradient(45deg, var(--cor6), var(--cor7));
     padding: 1rem 2rem;
     border:none;
@@ -224,13 +224,13 @@ h1 {
     cursor: pointer;
     font-weight: bold;
     width: 100%;
-    transition: all 0.5 ease;
+    transition: all 0.5s ease;
 }
 
 
 .botao-form:hover {
     transform: translateY(-4px);
-    box-shadow: 0 10px 15px rgba(0, 136, 77, 0.785);
+    box-shadow: 0 10px 15px rgba(34, 197, 94, 0.2);
 }
 
 .bolinhas{
@@ -240,11 +240,11 @@ h1 {
     width: 100%;
     height: 100%;
     z-index: -1;
-    opacity: 0.5;
+    opacity: 1;
     background: 
-    radial-gradient(circle at 10%  20%, var(--cor2) 0%, transparent 20%),
-    radial-gradient(circle at 90%  80%, var(--cor2) 0%, transparent 20%),
-    var(--cor1);
+    radial-gradient(circle at 10% 20%, rgba(59, 130, 246, 0.12) 0%, transparent 35%),
+    radial-gradient(circle at 90% 80%, rgba(34, 211, 238, 0.08) 0%, transparent 35%),
+    #0b1120;
 }
 
 .rodape{
@@ -255,4 +255,39 @@ h1 {
 .t{
     text-align: center;
     color: var(--cor4)
+}
+/* Cores dos destaques e estados de foco. */
+h1,
+.projetos-titulo,
+.contato-titulo {
+    color: var(--cor1);
+}
+
+.sobre-paragrafo,
+.rodape {
+    color: var(--cor2);
+}
+
+.campo-form {
+    color-scheme: dark;
+}
+
+.campo-form::placeholder {
+    color: var(--cor2);
+    opacity: 1;
+}
+
+.menu-link:hover,
+.menu-link:focus-visible {
+    color: var(--cor8);
+}
+
+.menu-link:focus-visible,
+.botao-form:focus-visible {
+    outline: 2px solid var(--cor8);
+    outline-offset: 5px;
+}
+
+.projetos-card:hover {
+    border-color: var(--cor1);
 }
