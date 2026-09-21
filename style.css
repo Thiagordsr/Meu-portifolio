@@ -80,6 +80,7 @@ body {
     border-radius: 50%;
     border: 4px solid rgba(0, 0, 0, 0.3);
 }
+
 h1 {
     font-size: 3.5rem;
     color: var(--cor2);
@@ -153,11 +154,13 @@ h1 {
     transform: translateY(-10px) scale(1.03);
 }
 
-.projetos-imagem{
-    height: 230px;
+.projetos-imagem {
     width: 100%;
-    object-fit: cover;
+    height: 350px;
+    object-fit: contain;
     object-position: center;
+    padding: 15px;
+    box-sizing: border-box;
 }
 
 .texto-caixa-projeto{
@@ -211,7 +214,6 @@ h1 {
 
 .grupo-form{
     margin-bottom: 1.5rem;
-
 }
 
 .botao-form{
@@ -250,12 +252,6 @@ h1 {
     text-align: center;
 
 }
-
-.t{
-    text-align: center;
-    color: var(--cor4)
-}
-
 
 h1,
 .projetos-titulo,
