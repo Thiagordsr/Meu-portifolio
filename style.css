@@ -78,8 +78,8 @@ body {
 }
 
 .foto-thix{
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     box-shadow: 25px -15px 20px -1px rgba(2, 82, 180, 0.2);
     border-radius: 50%;
     border: 4px solid rgba(0, 0, 0, 0.3);
@@ -357,10 +357,6 @@ textarea.campo-form {
         font-size: 0.875rem;
     }
 
-    .foto-thix {
-        width: 200px;
-        height: auto;
-    }
 
     h1 {
         font-size: clamp(2rem, 7vw, 3rem);
