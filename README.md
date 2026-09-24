@@ -70,3 +70,4 @@ Estudante de Análise e Desenvolvimento de Sistemas — FIAP
 ## 📄 Licença
 
 Este projeto está sob licença livre para fins de estudo. Sinta-se à vontade para usar como referência.
+..
