@@ -8,6 +8,7 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
 }
 
 :root {
@@ -67,6 +68,9 @@ body {
 
 .cabecalho{
     min-height: 100vh;
+    min-height: 100svh;
+    padding: 6rem 1.5rem 3rem;
+    text-align: center;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -127,7 +131,7 @@ h1 {
 
 .projetos-caixa {
     display: grid;
-    grid-template-columns: repeat(2, 480px);
+    grid-template-columns: repeat(2, minmax(0, 480px));
     justify-content: center;
     gap: 2rem;
     max-width: 1200px;
@@ -206,6 +210,7 @@ h1 {
     color: var(--cor3);
     border: 1px solid #334155;
     outline: none;
+    font-size: 1rem;
 }
 
 .campo-form:focus{
@@ -291,6 +296,7 @@ h1,
 
 .stacks {
     display: flex;
+    flex-wrap: wrap;
     gap: 18px;
     margin-top: 20px;
     justify-content: center;
@@ -307,6 +313,7 @@ h1,
 
 .inicio-bts{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
     margin-top: 30px;
@@ -326,4 +333,98 @@ h1,
     color: #0b1220;
     transform: translateY(-3px);
     box-shadow: 0 0 20px rgba(96, 165, 250, 0.6);
+}
+
+textarea.campo-form {
+    resize: vertical;
+}
+
+@media (max-width: 700px) {
+    .navegacao {
+        padding: 0.5rem 0.75rem;
+    }
+
+    .menu {
+        justify-content: space-around;
+        gap: 0.25rem;
+    }
+
+    .menu-link {
+        display: flex;
+        align-items: center;
+        min-height: 44px;
+        padding: 0.5rem;
+        font-size: 0.875rem;
+    }
+
+    .foto-thix {
+        width: 200px;
+        height: auto;
+    }
+
+    h1 {
+        font-size: clamp(2rem, 7vw, 3rem);
+        line-height: 1.15;
+        margin: 1.5rem 0 1rem;
+    }
+
+    .cabecalho-sub-titulo {
+        max-width: 30rem;
+        font-size: 1.125rem;
+        line-height: 1.5;
+    }
+
+    .sobre,
+    .projetos,
+    .contato {
+        padding: 3rem 1rem;
+    }
+
+    .sobre-titulo,
+    .projetos-titulo,
+    .contato-titulo {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .sobre-caixa,
+    .formulario-contato,
+    .texto-caixa-projeto {
+        padding: 1.25rem;
+    }
+
+    .sobre-paragrafo {
+        font-size: 1rem;
+        line-height: 1.6;
+        text-align: left;
+    }
+
+    .sobre-paragrafo + .sobre-paragrafo {
+        margin-top: 1rem;
+    }
+
+    .projetos-caixa {
+        grid-template-columns: minmax(0, 480px);
+        gap: 1.5rem;
+    }
+
+    .projetos-imagem {
+        display: block;
+        height: auto;
+        aspect-ratio: 6 / 5;
+    }
+
+    .paragrafo-projetos {
+        line-height: 1.5;
+    }
+
+    .projetos-card:hover {
+        transform: none;
+    }
+
+    .rodape {
+        padding: 1rem;
+        font-size: 0.875rem;
+        line-height: 1.5;
+    }
 }
